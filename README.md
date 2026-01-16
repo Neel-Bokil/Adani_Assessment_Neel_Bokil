@@ -3,7 +3,7 @@
 This project predicts hourly electricity consumption using time-based features extracted from start and end timestamps.
 
 ## Dataset
-The original dataset was provided in `.xlsx` format and was converted to `.csv` for easier handling, faster loading, and better compatibility with data processing pipelines.
+The original dataset was provided in `.xlsx` format and was converted to `.csv` for easier handling, faster loading, and better compatibility with data processing workflows.
 
 ## Approach
 - Converted timestamps to datetime format
@@ -20,4 +20,4 @@ The original dataset was provided in `.xlsx` format and was converted to `.csv` 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python src/train.py
+
