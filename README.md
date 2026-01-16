@@ -2,6 +2,9 @@
 
 This project predicts hourly electricity consumption using time-based features extracted from start and end timestamps.
 
+## Dataset
+The original dataset was provided in `.xlsx` format and was converted to `.csv` for easier handling, faster loading, and better compatibility with data processing pipelines.
+
 ## Approach
 - Converted timestamps to datetime format
 - Engineered time-based features (hour, day, weekday, month, weekend)
